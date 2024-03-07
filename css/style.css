@@ -1629,6 +1629,9 @@ footer .social-media {
     .subscription .map{
         height: 70%;
     }
+    .contact .map{
+        display: none;
+    }
 }
 @media(max-width: 500px){
     .section{
@@ -1672,6 +1675,9 @@ footer .social-media {
     .sub-heading {
         font-size: 0.5rem;
     }
+    .contact .map{
+        display: none;
+    }
 }
 @media(max-width:420px){
     .section-background {
@@ -1684,9 +1690,14 @@ footer .social-media {
         var(--main-color-2)17%,
         var(--main-color-1)17%);
     }
+    .contact .map{
+        display: none;
+    }
 }
 @media(max-width: 449px){
-    
+    .contact .map{
+        display: none;
+    }
     .showcase-area{
         padding: 120px 0px;
     }
