@@ -1343,6 +1343,9 @@ footer .social-media {
         padding: 3.5rem 2.5rem;
         column-gap: 2rem;
     }
+    .contact .map{
+        display: none;
+    }
 
 
 }
@@ -1350,6 +1353,9 @@ footer .social-media {
     .skills-wrap {
         grid-template-columns: repeat(2, 150px);
         row-gap: 1rem;
+    }
+    .contact .map{
+        display: none;
     }
    
 }
@@ -1577,6 +1583,9 @@ footer .social-media {
         position: relative;
         grid-template-columns: 1fr ;
     }
+    .contact .map{
+        display: none;
+    }
 
     .section-background {
         transform: translateX(0%);
@@ -1747,5 +1756,8 @@ footer .social-media {
         top: -3%;
         transform: translateX(-4%);
         background-image: linear-gradient(45deg, var(--main-color-2) 17%, var(--main-color-1) 17%);
+    }
+    .contact .map{
+        display: none;
     }
 }
